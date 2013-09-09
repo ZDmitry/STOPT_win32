@@ -1,0 +1,114 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// русский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCEL ACCELERATORS 
+BEGIN
+    "X",            IDA_EXIT,               VIRTKEY, CONTROL, NOINVERT
+    "S",            IDA_SAVE,               VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE               "Оптимизатор"
+    IDS_OPTIMAL             "Оптимальный вариант"
+    IDS_BTN_BUILD           "Построить"
+    IDS_GRP_FORMULA         "Поле"
+    IDS_GRP_COORD           "Варианты"
+    IDS_SAVE                "Сохранить"
+    IDS_INTER_VAL           "Интерактивный режим"
+    IDS_FILLED              "Плошадь покрыта:"
+    IDS_ERROR_PNT           "Точка доступа вне границ покрываемой площади!"
+    IDS_EXIT_TTL            "Выход..."
+    IDS_EXIT_TXT            "Сохранить рисунок?"
+    IDS_ERROR               "Ошибка ввода данных..."
+    IDS_ERROR_TXT           "Проверьте правильность введенных данных!"
+    IDS_RADIUS              "Радиус"
+    IDS_COST                "Стоимость"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COUNT               "Количество"
+    IDS_SQ_OVERFILL         "Коефициент перекрытия"
+    IDS_SQ_OVRL             "Общая площадь покрытия:"
+    IDS_SQ_BOX              "Требуется покрыть: "
+    IDS_2D_MODE             "2D"
+    IDS_3D_MODE             "3D"
+    IDS_PROJ_MODE           "Проекции"
+    IDS_VIS_MODE            "Режим отображения"
+    IDS_ALGO_MODE           "Алгоритм расчета"
+    IDS_VQ_OVRL             "Общий обьем покрытия:"
+END
+
+#endif    // русский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

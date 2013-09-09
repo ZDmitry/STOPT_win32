@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Support">
+      <UniqueIdentifier>{dbd393fc-5a4a-4808-aa22-ca60bf6671ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\UI">
+      <UniqueIdentifier>{e476d0ba-70f0-4364-9ac8-c09d19cc256b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Support">
+      <UniqueIdentifier>{9f8fc7ec-76e0-4a8d-beff-8240e04e13ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\UI">
+      <UniqueIdentifier>{abd229de-8dd7-48cc-bb49-2de37f44ccc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="analitycs.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="analitycs3d.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="mn.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="ARB_Multisample.cpp">
+      <Filter>Файлы исходного кода\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="ogl_shape.cpp">
+      <Filter>Файлы исходного кода\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="shape.cpp">
+      <Filter>Файлы исходного кода\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="shape_derived.cpp">
+      <Filter>Файлы исходного кода\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="str_pp.cpp">
+      <Filter>Файлы исходного кода\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="algom.cpp">
+      <Filter>Файлы исходного кода\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="flate.cpp">
+      <Filter>Файлы исходного кода\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ogle.cpp">
+      <Filter>Файлы исходного кода\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="videom.cpp">
+      <Filter>Файлы исходного кода\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="analitycs.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="analitycs3d.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="mn.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ARB_Multisample.h">
+      <Filter>Заголовочные файлы\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="ogl_shape.h">
+      <Filter>Заголовочные файлы\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="shape.h">
+      <Filter>Заголовочные файлы\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="shape_derived.h">
+      <Filter>Заголовочные файлы\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="str_pp.h">
+      <Filter>Заголовочные файлы\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="algom.h">
+      <Filter>Заголовочные файлы\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="flate.h">
+      <Filter>Заголовочные файлы\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ogle.h">
+      <Filter>Заголовочные файлы\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="videom.h">
+      <Filter>Заголовочные файлы\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ResMain.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
