@@ -1,6 +1,6 @@
 PROJECT NAME: STOPT
 ================================================================================
-- AUTHOR:   Zagnoyko Dmitry (hiroshidi@gmail.com)  
+- AUTHOR:   Zagnoyko Dmitry ( zagnoyko.dmitry@gmail.com )  
 - LICENCE:  GPLv3    
 - L18n:     RU
 - TOOLS:    MS VS C++ 2010 Express
